@@ -21,3 +21,5 @@ class Config(object):
     POSTS_PER_PAGE = 5
 
     LANGUAGES = ['en', 'ru']
+
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
