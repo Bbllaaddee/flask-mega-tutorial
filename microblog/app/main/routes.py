@@ -186,6 +186,6 @@ def notifications():
             Notification.timestamp > since).order_by(Notification.timestamp.asc())
     return jsonify([{
         'name': n.name,
-        'data': n._get_data(),
+        'data': n.get_data(),
         'timestamp': n.timestamp
     } for n in notifications])
