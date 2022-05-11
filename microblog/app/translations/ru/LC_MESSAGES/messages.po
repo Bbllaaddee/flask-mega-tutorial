@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-05 20:36+0300\n"
+"POT-Creation-Date: 2022-05-11 19:22+0300\n"
 "PO-Revision-Date: 2022-05-03 18:14+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -160,12 +160,12 @@ msgstr "Нельзя отписаться от себя!"
 msgid "You are not following %(username)s!"
 msgstr "Вы больше не подписаны на %(username)s"
 
-#: app/main/routes.py:162
+#: app/main/routes.py:163
 #, fuzzy
 msgid "Your message has been sent."
 msgstr "Ваш пароль был изменён"
 
-#: app/main/routes.py:164
+#: app/main/routes.py:165
 msgid "Send message"
 msgstr "Отправить сообщение"
 
@@ -186,19 +186,19 @@ msgstr "Добро пожаловать в Microblog"
 msgid "Login"
 msgstr "Войти"
 
-#: app/templates/base.html:41 app/templates/messages.html:4
+#: app/templates/base.html:42 app/templates/messages.html:4
 msgid "Messages"
 msgstr "Сообщения"
 
-#: app/templates/base.html:42
+#: app/templates/base.html:51
 msgid "Profile"
 msgstr "Профиль"
 
-#: app/templates/base.html:43
+#: app/templates/base.html:52
 msgid "Logout"
 msgstr "Выйти"
 
-#: app/templates/base.html:81
+#: app/templates/base.html:90
 msgid "Error: Could not contact server"
 msgstr "Ошибка: Не удалось связаться с сервером"
 
